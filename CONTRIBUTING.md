@@ -107,7 +107,7 @@ Use `yarn test:loki` to run the loki visual regression tests. It will fail if th
 
 ### Generating the documentation website
 
-Enter into `site` directory and run `yarn site:start` to start the Gatsby development server of the documentation website.
+Enter into `site` directory and run `yarn site:start` to start the Gatsby development server of the documentation website on port `8000`.
 
 The documentation uses the local built version of bold (from the `lib/` folder), so make sure to run `yarn build` every time you want the changes from the bold components take effect on the Gatsby site generation.
 
