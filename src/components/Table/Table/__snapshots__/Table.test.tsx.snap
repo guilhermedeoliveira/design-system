@@ -1,0 +1,423 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should accept the hovered prop 1`] = `
+.emotion-0 {
+  text-align: left;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #D3D4DD;
+}
+
+.emotion-10 {
+  text-align: left;
+  padding: 0 1rem;
+  height: 2.5rem;
+  border-bottom: 1px solid #D3D4DD;
+}
+
+.emotion-5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.emotion-4 {
+  margin-left: 0.25rem;
+  font-size: 1rem;
+  fill: #AAAAB9;
+}
+
+.emotion-2 {
+  fill: #0069D0;
+}
+
+.emotion-19 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #D3D4DD;
+}
+
+.emotion-19 tr:hover td {
+  background: #F0F0F5;
+}
+
+<div>
+  <table
+    class="emotion-19"
+  >
+    <thead
+      class="emotion-1"
+    >
+      <tr
+        class="emotion-1"
+      >
+        <th
+          class="emotion-0"
+          colspan="2"
+        >
+          Headers
+        </th>
+      </tr>
+      <tr
+        class="emotion-1"
+      >
+        <th
+          class="emotion-0"
+        >
+          <span
+            class="emotion-5"
+          >
+            Header #1
+            <svg
+              class="emotion-4"
+              height="1em"
+              viewBox="0 0 24 24"
+              width="1em"
+            >
+              <polygon
+                class="emotion-2"
+                points="12 4.94 16.95 9.89 18.36 8.47 12 2.11 5.64 8.47 7.05 9.89 12 4.94"
+              />
+              <polygon
+                class="emotion-1"
+                points="12 19.06 7.05 14.11 5.64 15.53 12 21.89 18.36 15.53 16.95 14.11 12 19.06"
+              />
+            </svg>
+          </span>
+        </th>
+        <th
+          class="emotion-0"
+        >
+          Header #2
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="emotion-1"
+    >
+      <tr
+        class="emotion-1"
+      >
+        <td
+          class="emotion-10"
+          colspan="2"
+        >
+          Row #1
+        </td>
+      </tr>
+      <tr
+        class="emotion-1"
+      >
+        <td
+          class="emotion-10"
+        >
+          Row #2 - Cell #1
+        </td>
+        <td
+          class="emotion-10"
+        >
+          Row #2 - Cell #2
+        </td>
+      </tr>
+      <tr
+        class="emotion-1"
+      >
+        <td
+          class="emotion-10"
+        >
+          Row #3 - Cell #1
+        </td>
+        <td
+          class="emotion-10"
+        >
+          Row #3 - Cell #2
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table should accept the style prop 1`] = `
+.emotion-0 {
+  text-align: left;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #D3D4DD;
+}
+
+.emotion-10 {
+  text-align: left;
+  padding: 0 1rem;
+  height: 2.5rem;
+  border-bottom: 1px solid #D3D4DD;
+}
+
+.emotion-5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.emotion-4 {
+  margin-left: 0.25rem;
+  font-size: 1rem;
+  fill: #AAAAB9;
+}
+
+.emotion-2 {
+  fill: #0069D0;
+}
+
+.emotion-19 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #D3D4DD;
+  color: red;
+}
+
+<div>
+  <table
+    class="emotion-19"
+  >
+    <thead
+      class="emotion-1"
+    >
+      <tr
+        class="emotion-1"
+      >
+        <th
+          class="emotion-0"
+          colspan="2"
+        >
+          Headers
+        </th>
+      </tr>
+      <tr
+        class="emotion-1"
+      >
+        <th
+          class="emotion-0"
+        >
+          <span
+            class="emotion-5"
+          >
+            Header #1
+            <svg
+              class="emotion-4"
+              height="1em"
+              viewBox="0 0 24 24"
+              width="1em"
+            >
+              <polygon
+                class="emotion-2"
+                points="12 4.94 16.95 9.89 18.36 8.47 12 2.11 5.64 8.47 7.05 9.89 12 4.94"
+              />
+              <polygon
+                class="emotion-1"
+                points="12 19.06 7.05 14.11 5.64 15.53 12 21.89 18.36 15.53 16.95 14.11 12 19.06"
+              />
+            </svg>
+          </span>
+        </th>
+        <th
+          class="emotion-0"
+        >
+          Header #2
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="emotion-1"
+    >
+      <tr
+        class="emotion-1"
+      >
+        <td
+          class="emotion-10"
+          colspan="2"
+        >
+          Row #1
+        </td>
+      </tr>
+      <tr
+        class="emotion-1"
+      >
+        <td
+          class="emotion-10"
+        >
+          Row #2 - Cell #1
+        </td>
+        <td
+          class="emotion-10"
+        >
+          Row #2 - Cell #2
+        </td>
+      </tr>
+      <tr
+        class="emotion-1"
+      >
+        <td
+          class="emotion-10"
+        >
+          Row #3 - Cell #1
+        </td>
+        <td
+          class="emotion-10"
+        >
+          Row #3 - Cell #2
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table should render corretly 1`] = `
+.emotion-19 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #D3D4DD;
+}
+
+.emotion-0 {
+  text-align: left;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #D3D4DD;
+}
+
+.emotion-10 {
+  text-align: left;
+  padding: 0 1rem;
+  height: 2.5rem;
+  border-bottom: 1px solid #D3D4DD;
+}
+
+.emotion-5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.emotion-4 {
+  margin-left: 0.25rem;
+  font-size: 1rem;
+  fill: #AAAAB9;
+}
+
+.emotion-2 {
+  fill: #0069D0;
+}
+
+<div>
+  <table
+    class="emotion-19"
+  >
+    <thead
+      class="emotion-1"
+    >
+      <tr
+        class="emotion-1"
+      >
+        <th
+          class="emotion-0"
+          colspan="2"
+        >
+          Headers
+        </th>
+      </tr>
+      <tr
+        class="emotion-1"
+      >
+        <th
+          class="emotion-0"
+        >
+          <span
+            class="emotion-5"
+          >
+            Header #1
+            <svg
+              class="emotion-4"
+              height="1em"
+              viewBox="0 0 24 24"
+              width="1em"
+            >
+              <polygon
+                class="emotion-2"
+                points="12 4.94 16.95 9.89 18.36 8.47 12 2.11 5.64 8.47 7.05 9.89 12 4.94"
+              />
+              <polygon
+                class="emotion-1"
+                points="12 19.06 7.05 14.11 5.64 15.53 12 21.89 18.36 15.53 16.95 14.11 12 19.06"
+              />
+            </svg>
+          </span>
+        </th>
+        <th
+          class="emotion-0"
+        >
+          Header #2
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="emotion-1"
+    >
+      <tr
+        class="emotion-1"
+      >
+        <td
+          class="emotion-10"
+          colspan="2"
+        >
+          Row #1
+        </td>
+      </tr>
+      <tr
+        class="emotion-1"
+      >
+        <td
+          class="emotion-10"
+        >
+          Row #2 - Cell #1
+        </td>
+        <td
+          class="emotion-10"
+        >
+          Row #2 - Cell #2
+        </td>
+      </tr>
+      <tr
+        class="emotion-1"
+      >
+        <td
+          class="emotion-10"
+        >
+          Row #3 - Cell #1
+        </td>
+        <td
+          class="emotion-10"
+        >
+          Row #3 - Cell #2
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

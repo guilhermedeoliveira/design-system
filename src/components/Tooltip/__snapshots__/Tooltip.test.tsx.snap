@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<body>
+  <div>
+    <div
+      id="portal-root"
+    />
+  </div>
+  <div>
+    <span
+      title="Tooltip text"
+    >
+      Testing
+    </span>
+  </div>
+</body>
+`;
+
+exports[`should render correctly 2`] = `
+.emotion-1 {
+  z-index: 1400;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  opacity: 0;
+}
+
+.emotion-0 {
+  border-radius: 2px;
+  max-width: 1280px;
+  background: #3A3A47;
+  color: #FFFFFF;
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+<body>
+  <div>
+    <div
+      id="portal-root"
+    >
+      <div
+        aria-hidden="false"
+        class="emotion-1"
+        id="tooltip-abc"
+        role="tooltip"
+        style="position: absolute; left: 0px; top: 0px; margin: 0px;"
+      >
+        <div
+          class="emotion-0"
+        >
+          Tooltip text
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <span
+      aria-describedby="tooltip-abc"
+    >
+      Testing
+    </span>
+  </div>
+</body>
+`;

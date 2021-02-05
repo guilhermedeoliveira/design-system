@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should accept "component" props 1`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+}
+
+<div>
+  <p
+    class="emotion-0"
+  >
+    This is a paragraph
+  </p>
+</div>
+`;
+
+exports[`should accept "variant" props 1`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Main text
+  </span>
+</div>
+`;
+
+exports[`should accept "variant" props 2`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #696979;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Secondary text
+  </span>
+</div>
+`;
+
+exports[`should accept "variant" props 3`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #AAAAB9;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Disabled text
+  </span>
+</div>
+`;
+
+exports[`should accept "variant" props 4`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #0069D0;
+  font-weight: bold;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Link
+  </span>
+</div>
+`;
+
+exports[`should accept "variant" props 5`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Heading 1
+  </span>
+</div>
+`;
+
+exports[`should accept "variant" props 6`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Heading 2
+  </span>
+</div>
+`;
+
+exports[`should accept "variant" props 7`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Heading 3
+  </span>
+</div>
+`;
+
+exports[`should accept "variant" props 8`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Heading 4
+  </span>
+</div>
+`;
+
+exports[`should accept "variant" props 9`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Heading 5
+  </span>
+</div>
+`;
+
+exports[`should accept "variant" props 10`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Heading 6
+  </span>
+</div>
+`;
+
+exports[`should accept style prop 1`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+  color: red;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    This is red
+  </span>
+</div>
+`;
+
+exports[`should accept text style decoration props 1`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Test weight
+  </span>
+</div>
+`;
+
+exports[`should accept text style decoration props 2`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-size: 2rem;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Test size
+  </span>
+</div>
+`;
+
+exports[`should accept text style decoration props 3`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+  color: #0069D0;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Test color
+  </span>
+</div>
+`;
+
+exports[`should accept text style decoration props 4`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-style: italic;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Test italic
+  </span>
+</div>
+`;
+
+exports[`should accept text style decoration props 5`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Test underline
+  </span>
+</div>
+`;
+
+exports[`should render correctly 1`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+}
+
+<div>
+  <span
+    class="emotion-0"
+  >
+    Test 1
+  </span>
+</div>
+`;

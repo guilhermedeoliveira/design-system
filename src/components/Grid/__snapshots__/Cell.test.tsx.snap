@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should accept "style" prop 1`] = `
+.emotion-0 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: red;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    Content
+  </div>
+</div>
+`;
+
+exports[`should accept flex item props 1`] = `
+.emotion-0 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: calc(100% / 12 * 6);
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    Content
+  </div>
+</div>
+`;
+
+exports[`should accept responsive sizes 1`] = `
+.emotion-0 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: calc(100% / 12 * 12);
+}
+
+@media (min-width:600px) {
+  .emotion-0 {
+    width: calc(100% / 12 * 6);
+  }
+}
+
+@media (min-width:960px) {
+  .emotion-0 {
+    width: calc(100% / 12 * 4);
+  }
+}
+
+@media (min-width:1280px) {
+  .emotion-0 {
+    width: calc(100% / 12 * 3);
+  }
+}
+
+@media (min-width:1920px) {
+  .emotion-0 {
+    width: calc(100% / 12 * 2);
+  }
+}
+
+<div>
+  <div
+    class="emotion-0"
+  />
+</div>
+`;
+
+exports[`should accept size 1`] = `
+.emotion-0 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: calc(100% / 12 * 6);
+}
+
+<div>
+  <div
+    class="emotion-0"
+  />
+</div>
+`;
+
+exports[`should render correctly 1`] = `
+.emotion-0 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    Content
+  </div>
+</div>
+`;

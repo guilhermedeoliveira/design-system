@@ -1,0 +1,22 @@
+import { Demo } from '../../../components/Demo'
+
+# Table
+
+The component presents data distributed in lines and columns, displaying them in a logical order that allows easy reading, comparison and scan of the information.
+
+## Best practices
+
+- Columns where ordinating is possible, should present the sort icon in the right side of the label.
+- The [Paginator](/components/paginator) component must be presented only for large data sets.
+
+## Data table
+
+A table that automatically generates rows based on `columns` prop and gives support to sorting and loading state.
+
+<Demo src='pages/components/table/DataTable' />
+
+## Paged table
+
+A DataTable that includes a pagination component on the footer.
+
+<Demo src='pages/components/table/PagedTable' />

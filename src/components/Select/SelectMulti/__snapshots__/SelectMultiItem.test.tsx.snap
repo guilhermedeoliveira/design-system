@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+.emotion-0 {
+  padding: calc(0.125rem - 1px) 0.25rem;
+}
+
+.emotion-1 {
+  background: #F0F0F5;
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: calc(0.125rem - 1px) 0;
+}
+
+.emotion-1:hover {
+  color: #D01E29;
+}
+
+.emotion-1 svg {
+  fill: currentColor;
+}
+
+.emotion-2 {
+  border: 1px solid #D3D4DD;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: bold;
+  color: red;
+}
+
+<div>
+  <span
+    class="emotion-2"
+  >
+    <span
+      class="emotion-0"
+    />
+    <span
+      class="emotion-1"
+      title="Remove"
+    >
+      <svg
+        height="1em"
+        viewBox="0 0 24 24"
+        width="1em"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M8.071 6.657l4.243 4.242 4.242-4.242c.464-.48.935-.48 1.415 0s.48.95 0 1.414l-4.243 4.243 4.243 4.242c.471.472.471.943 0 1.415-.472.471-.943.471-1.415 0l-4.242-4.243L8.07 17.97c-.46.482-.932.482-1.414 0-.482-.483-.482-.954 0-1.415l4.242-4.242L6.657 8.07c-.472-.47-.472-.942 0-1.414s.943-.472 1.414 0v.001z"
+        />
+      </svg>
+    </span>
+  </span>
+</div>
+`;

@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should accept color prop 1`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+  color: #0069D0;
+  margin-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="emotion-1"
+  >
+    <h1
+      class="emotion-0"
+    >
+      Heading section title 1
+    </h1>
+    Content section 1
+  </div>
+</div>
+`;
+
+exports[`should accept style prop 1`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.emotion-1 {
+  color: red;
+}
+
+<div>
+  <div
+    class="emotion-1"
+  >
+    <h1
+      class="emotion-0"
+    >
+      Heading section title 1
+    </h1>
+    Content section 1
+  </div>
+</div>
+`;
+
+exports[`should accept vSpace prop 1`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+<div>
+  <div
+    class="emotion-1"
+  >
+    <h1
+      class="emotion-0"
+    >
+      Some title
+    </h1>
+    Content section 1
+  </div>
+</div>
+`;
+
+exports[`should render correctly 1`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="emotion-1"
+  >
+    <h1
+      class="emotion-0"
+    >
+      Heading section title 1
+    </h1>
+    Content section 1
+  </div>
+</div>
+`;
+
+exports[`should render correctly 2`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="emotion-1"
+  >
+    <h2
+      class="emotion-0"
+    >
+      Heading section title 2
+    </h2>
+    Content section 2
+  </div>
+</div>
+`;
+
+exports[`should render correctly 3`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="emotion-1"
+  >
+    <h3
+      class="emotion-0"
+    >
+      Heading section title 3
+    </h3>
+    Content section 3
+  </div>
+</div>
+`;
+
+exports[`should render correctly 4`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="emotion-1"
+  >
+    <h4
+      class="emotion-0"
+    >
+      Heading section title 4
+    </h4>
+    Content section 4
+  </div>
+</div>
+`;
+
+exports[`should render correctly 5`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="emotion-1"
+  >
+    <h5
+      class="emotion-0"
+    >
+      Heading section title 5
+    </h5>
+    Content section 5
+  </div>
+</div>
+`;
+
+exports[`should render correctly 6`] = `
+.emotion-0 {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #24252E;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="emotion-1"
+  >
+    <h6
+      class="emotion-0"
+    >
+      Heading section title 6
+    </h6>
+    Content section 6
+  </div>
+</div>
+`;

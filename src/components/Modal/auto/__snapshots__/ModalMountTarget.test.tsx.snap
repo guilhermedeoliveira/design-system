@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render should render all components from state 1`] = `
+<div>
+  <div />
+</div>
+`;
+
+exports[`render should render all components from state 2`] = `
+<div>
+  <div>
+    <div>
+      First
+    </div>
+  </div>
+</div>
+`;
