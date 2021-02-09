@@ -10,6 +10,120 @@ import StackAlt from "./assets/stackalt.svg";
 
 <Meta title="Tokens/Color" />
 
+<style>{`
+  .doc-wrapper {
+    margin-bottom: 2rem;
+    border: 0;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .text-dark {
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+  }
+
+  .text-light {
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+  }
+
+  .primary-color-deep {
+    background-color: #1B6474;
+  }
+
+  .primary-color-dark {
+    background-color: #2F9BB2;
+  }
+
+  .primary-color-main {
+    background-color: #3BBCD8;
+  }
+
+  .primary-color-light {
+    background-color: #59D5EF;
+  }
+
+  .primary-color-clear {
+    background-color: #EFF6F8;
+  }
+
+  .neutral-color-deep {
+    background-color: #292929;
+  }
+
+  .neutral-color-dark {
+    background-color: #505050;
+  }
+
+  .neutral-color-main {
+    background-color: #747474;
+  }
+
+  .neutral-color-light {
+    background-color: #A9A9A9;
+  }
+
+  .neutral-color-clear {
+    background-color: #EEEEEE;
+  }
+`}</style>
+
 # Color
 
 Place raw colors and semantic colors
+
+<h2 className="doc-wrapper">Semantic Colors</h2>
+
+<h3 className="wrapper">Primary color palette</h3>
+<div className="wrapper">
+  <div className="content primary-color-deep">
+    <p className="text-light">Deep</p>
+  </div>
+  <div className="content primary-color-dark">
+    <p className="text-light">Dark</p>
+  </div>
+  <div className="content primary-color-main">
+    <p className="text-light">Main</p>
+  </div>
+  <div className="content primary-color-light">
+    <p className="text-dark">Light</p>
+  </div>
+  <div className="content primary-color-clear">
+    <p className="text-dark">Clear</p>
+  </div>
+</div>
+
+<h3 className="wrapper">Neutral color palette</h3>
+<div className="wrapper">
+  <div className="content neutral-color-deep">
+    <p className="text-light">Deep</p>
+  </div>
+  <div className="content neutral-color-dark">
+    <p className="text-light">Dark</p>
+  </div>
+  <div className="content neutral-color-main">
+    <p className="text-light">Main</p>
+  </div>
+  <div className="content neutral-color-light">
+    <p className="text-dark">Light</p>
+  </div>
+  <div className="content neutral-color-clear">
+    <p className="text-dark">Clear</p>
+  </div>
+</div>
